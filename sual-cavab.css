@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+
+.suallar {
+    width: 50%;
+    height: 60vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 162, 255, 0.151);
+    text-align: center;
+    padding: 100px;
+    display: none;
+}
+
+.start {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.suallar p {
+    width: 30%;
+    font-size: 30px;
+    background-color: white;
+    margin: auto;
+}
+
+.cavablar {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.cavablar button {
+    width: 35%;
+    font-size: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+#next {
+    position: absolute;
+    top: 45%;
+    right: 13%;
+    font-size: 25px;
+    width: 80px;
+    display: none;
+}
+.bitir {
+    position: absolute;
+    top: 55%;
+    right: 13%;
+    font-size: 25px;
+    width: 80px;
+    display: none;
+}
+.zaman h1{
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    font-size: 40px;
+    border: 1px solid white;
+    padding: 0px 10px;
+}
+.disabled {
+    background-color: transparent;
+}
+
+.nomreler {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.nomreler button {
+    width: 9%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.netice {
+    width: 60%;
+    height: 80vh;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 200px;
+    display: none;
+}
+
+.netice h1 {
+    width: 70%;
+    text-align: right;
+}
+button{
+    border-radius: 2px;
+    border: none;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.disablebutton {
+    pointer-events: none;
+  }

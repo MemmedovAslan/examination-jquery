@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.daxil1 {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+
+.daxil2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 40vh;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+input {
+    position: relative;
+    width: 90%;
+    height: 5%;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+input:first-child {
+    margin-bottom: 10px;
+}
+
+#daxilol {
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    right: 35px;
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+}
